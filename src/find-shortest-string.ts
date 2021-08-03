@@ -5,7 +5,7 @@
  * @param stringArr array of strings
  * @returns the shortest string
  */
-function findShortestString(stringArr: string[]): number {
+function findShortestString(stringArr: string[]): string {
   let shortestString = stringArr[0];
   for (const str of stringArr) {
     if (str.length < shortestString.length) {
